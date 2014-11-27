@@ -7,9 +7,9 @@ An Excel spreadsheet for:
 3. Getting a rule base/ACLs from a firewall/router  
 
 The spreadsheet contains 4 sheets:  
-1. Submit Access Request (requires SecureChange)  
-2. Get Devices (requires SecureTrack)  
-3. Get Rules (requires SecureTrack)  
+1. Request (requires SecureChange)  
+2. Devices (requires SecureTrack)  
+3. Rules (requires SecureTrack)  
 4. Settings: define system settings  
 
 Configuration
@@ -21,18 +21,18 @@ Configuration
 
 Submitting access requests
 --------------------------
-1. Go to the Submit Access Request sheet, fill in the access request and submit it  
+1. Go to the Request sheet, fill in the access request and submit it  
 2. If all goes well a popup will say "Ticket was submitted successfully."  
 3. If you get an error message check that settings and make sure that the request matches the workflow settings  
 
 Getting Devices
 ---------------
-1. Go to the Get Devices sheet  
+1. Go to the Devices sheet  
 2. Click the button  
 
 Getting Rules
 -------------
-1. Go to the Get Rules sheet  
+1. Go to the Rules sheet  
 2. Enter the device ID in cell B1 (you can get the ID from the Get Devices sheet)  
 3. Click the button  
 4. If successful, you will see all your security rules or ACLs in the sheet  
