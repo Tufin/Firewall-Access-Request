@@ -33,7 +33,7 @@ Getting Devices
 Getting Rules
 -------------
 1. Go to the Rules sheet  
-2. Enter the device ID in cell B1 (you can get the ID from the Get Devices sheet)  
+2. Enter the device ID in cell B1 (you can get the ID from the Devices sheet)  
 3. Click the button  
 4. If successful, you will see all your security rules or ACLs in the sheet  
 
