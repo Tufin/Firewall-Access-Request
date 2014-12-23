@@ -3,14 +3,18 @@ Firewall-Access-Request
 
 An Excel spreadsheet for:  
 1. Submitting firewall access requests in SecureChange  
-2. Getting all configured devices in SecureTrack  
-3. Getting a rule base/ACLs from a firewall/router  
+2. Retrieving device and policy information from SecureTrack  
 
-The spreadsheet contains 4 sheets:  
+The spreadsheet contains the following sheets:  
 1. Request (requires SecureChange)  
 2. Devices (requires SecureTrack)  
 3. Rules (requires SecureTrack)  
-4. Settings: define system settings  
+4. Network Objects (requires SecureTrack)  
+5. Services (requires SecureTrack)  
+6. Cisco ACL stats (requires SecureTrack)  
+7. Check Point Policy Stats (requires SecureTrack)  
+8. Zone Based Firewall Stats (requires SecureTrack)  
+9. Settings: define system settings  
 
 Configuration
 -------------
@@ -18,6 +22,7 @@ Configuration
 2. Open the spreadsheet  
 3. Enable macros (if Excel asks you)  
 4. Go to the Settings sheet and fill in the details  
+5. Use any of the other sheets  
 
 Submitting access requests
 --------------------------
@@ -28,14 +33,15 @@ Submitting access requests
 Getting Devices
 ---------------
 1. Go to the Devices sheet  
-2. Click the button  
+2. Enter "yes" or "no" in cell B1 to define whether you want to fetch policy cleanup statistics  
+3. Click the "Get Devices" button  
 
-Getting Rules
--------------
-1. Go to the Rules sheet  
-2. Enter the device ID in cell B1 (you can get the ID from the Get Devices sheet)  
+Getting Rules and Objects from SecureTrack
+------------------------------------------
+1. Go to the relevant sheet  
+2. Enter one or more device IDs in cell B1, B2 etc. (you can get the ID from the Devices sheet)  
 3. Click the button  
-4. If successful, you will see all your security rules or ACLs in the sheet  
+4. If successful, you will see the data being populated the sheet  
 
 Help
 ----
