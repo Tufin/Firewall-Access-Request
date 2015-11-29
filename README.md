@@ -2,7 +2,7 @@ Firewall-Access-Request
 =======================
 
 This Excel spreadsheet demonstrates the RESTful APIs in Tufin SecureTrack and SecureChange.
-In honor of Hacker Joe.
+In honour of Hacker Joe.
 
 
 The spreadsheet contains the following sheets:  
@@ -10,7 +10,7 @@ The spreadsheet contains the following sheets:
 - Ticket Status - get ticket status from SecureChange
 - Devices - retrieve SecureTrack devices
 - Rules - retrieve security rules from SecureTrack  
-- NAT Rules - retrieve NAT rules from SecureTrack  
+- NAT Rules - retrieve NAT rules from SecureTrack  (still under work - please help to finalize)
 - Network Objects - retrieve network objects from SecureTrack
 - Services - requires services from SecureTrack
 - Cisco ACL stats - retrieve info about Cisco ACLs from SecureTrack  
