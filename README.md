@@ -10,12 +10,14 @@ The spreadsheet contains the following sheets:
 - Ticket Status - get ticket status from SecureChange
 - Devices - retrieve SecureTrack devices
 - Rules - retrieve security rules from SecureTrack  
+- Policy Analysis - fetches rules that match specific flows
 - NAT Rules - retrieve NAT rules from SecureTrack  (still under work - please help to finalize)
 - Network Objects - retrieve network objects from SecureTrack
 - Services - requires services from SecureTrack
 - Cisco ACL stats - retrieve info about Cisco ACLs from SecureTrack  
 - Check Point Policy Stats -  retrieve info about Check Point policies from SecureTrack
 - Zone Based Firewall Stats - retrieve info about zone based firewalls from SecureTrack
+- Debug: see the REST requests and responses for debugging
 - Settings: define system settings
 
 Configuration
@@ -53,6 +55,13 @@ Getting Rules, NAT Rules and Objects from SecureTrack
 3. Click the button  
 4. If successful, you will see the data being populated the sheet  
 
+Policy Analysis
+---------------
+1. Go to the Policy Analysis sheet
+2. Enter one or more device IDs in cell B1, B2 etc. (you can get the ID from the Devices sheet)  
+3. Enter the Policy Analysis query in rows 4-7
+3. Click the button  
+
 Help
 ----
-Please contact support@tufin.com  
+Please search Google for "Tufin Developer Community" and join the community
