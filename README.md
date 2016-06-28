@@ -6,7 +6,7 @@ In honour of Hacker Joe.
 
 
 The spreadsheet contains the following sheets:  
-- Request - submit an access request in SecureChange
+- Request - submit a firewall access request in SecureChange
 - Ticket Status - get ticket status from SecureChange
 - Devices - retrieve SecureTrack devices
 - Rules - retrieve security rules from SecureTrack  
