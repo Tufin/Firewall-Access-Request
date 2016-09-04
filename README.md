@@ -2,8 +2,6 @@ Firewall-Access-Request
 =======================
 
 This Excel spreadsheet demonstrates the RESTful APIs in Tufin SecureTrack and SecureChange.
-In honour of Hacker Joe.
-
 
 The spreadsheet contains the following sheets:  
 - Request - submit a firewall access request in SecureChange
@@ -65,3 +63,7 @@ Policy Analysis
 Help
 ----
 Please search Google for "Tufin Developer Community" and join the community
+
+Acknowledgments
+---------------
+This project is dedicated in honor and memory of my friend and colleague, Hacker Joe, who inspired the creation of Tufin's REST APIs as well as many other innovative ideas.
