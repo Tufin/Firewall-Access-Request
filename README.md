@@ -69,7 +69,6 @@ REST call failed. Check Settings.
 If you get this error message:
 
 1. Verify the values in the Settings tab
-
 2. Verify that your Windows machine supports TLS 1.2: https://plus.google.com/110390571728868776190/posts/dEnPX8ruPbb?sfc=true
 
 Acknowledgments
